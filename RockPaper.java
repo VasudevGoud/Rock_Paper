@@ -5,10 +5,10 @@ public class RockPaper {
  
 
 
-        public static String PlayerName;
-        public static int rounds;
-        public static int PlayerScore=0,CompScore=0;
-        public static Scanner ob = new Scanner(System.in);
+        private static String PlayerName;
+        private static int rounds;
+        private static int PlayerScore=0,CompScore=0;
+        private static Scanner ob = new Scanner(System.in);
 
         public static void RoundDetails() {
 
